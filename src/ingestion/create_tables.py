@@ -1,5 +1,5 @@
 from sqlalchemy import text
-from db import engine
+from src.ingestion.db import engine
 
 def create_tables():
     with open("sql/schema.sql", "r") as file:

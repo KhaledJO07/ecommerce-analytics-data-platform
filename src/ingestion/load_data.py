@@ -1,5 +1,5 @@
 import pandas as pd
-from db import engine
+from src.ingestion.db import engine
 
 TABLE_FILES = {
     "raw_customers": "data/raw/customers.csv",
